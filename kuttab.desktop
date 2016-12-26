@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Kuttab
+Name[ar]=كُتّاب 
+GenericName=Arabic Typing Trainer
+GenericName[ar]=مدرب الطباعة العربية
+Terminal=false
+Exec=kuttab
+Icon=kuttab
+Categories=Education;
+StartupNotify=false

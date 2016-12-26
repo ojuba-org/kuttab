@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="local/kuttab.css"/>
+	<script type="text/javascript" src="local/kuttab-texts.js"></script>
+	<script type="text/javascript">
+var rnd=Math.floor(Math.random()*texts.length);
+var p = texts[rnd][0];
+	</script>
+	<script type="text/javascript" src="local/kuttab.js"></script>
+
+
+<title>الكُتاب للتدريب على الطباعة</title>
+
+
+</head>
+<body dir="rtl" onLoad="main()">
+<div class="main" unselectable="on" >
+
+<div class="div">
+<div id="txt" class="txt">فضلا انتظر. يجري تحميل النص...</div>
+</div>
+
+<div id="typed_div" unselectable="on" style="margin:0 auto;">
+<form name="myForm" onSubmit="return false">
+<input autocomplete="off" class="typedText" id="typedTxt" onPaste="return false" tabindex="1">
+</form>
+
+</div>
+<div class="result_div" id="result_div">
+النتيجة: 
+<span id="unfinished_result">
+لم تكمل في الوقت المحدد والسرعة المبينة هي للجزء الذي أنجزته فقط.
+</span><br/>
+كانت سرعتك 
+<span id="result_wpm">-</span>
+كلمة في الدقيقة.
+<a href="index.html">تدرب مرة أخرى</a>
+</div>
+
+
+<div class="right_sidebar">
+<div class="extra_sidebar sidebar_box">
+<div class="box center" style="width: 90%; ">
+  <b class='xtop'><b class='xb1'></b><b class='xb2'></b><b class='xb3'></b><b class='xb4'></b></b>
+  <div class='xbox'>
+
+
+<div class='box_content' style="text-align:center;" >
+<center><img src="local/img/kuttab-board.gif" width="188" height="160" /></center><hr/>
+الزمن المتبقي بالثواني:
+<center>
+<div id="time2">
+<div style="font-size: 32px;line-height : 2.0em;" id="time">-</div>
+</div>
+</center>
+<hr/>
+<div style="font-size: 16px;">السرعة كلمة لكل دقيقة:</div>
+<div id="wpm2">
+<center><span style="font-size: 32px; align:center;" id="wpm">-</span>
+</center></div>
+</div>
+  </div>
+  <b class='xbottom'><b class='xb4'></b><b class='xb3'></b><b class='xb2'></b><b class='xb1'></b></b>
+</div>
+
+
+</div></div><div class="ojuba"></div>
+
+
+</body>
+</html>

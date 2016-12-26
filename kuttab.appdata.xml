@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">kuttab.desktop</id>
+  <licence>WAQFv2</licence>
+  <description>
+    <p>Arabic Typing Trainer.</p>
+    <p xml:lang="ar">مدرب الطباعة العربية.</p>
+  </description>
+  <url type="homepage">http://ojuba.org</url>
+  <screenshots>
+    <screenshot type="default">http://ojuba.org/screenshots/kuttab.png</screenshot>
+  </screenshots>
+  <updatecontact>moceap@hotmail.com</updatecontact>
+  <project_group>Education</project_group>
+</application>
