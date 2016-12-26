@@ -1,7 +1,0 @@
-input.typedText{background:#F7FAF5; color:#111;font-family:arial;font-size:1.9em;padding-left:2px;text-align:right; border:1px solid #DFB;width:630px;}
-input.typedTextError{background:#ffeffb; color:#111;font-family:arial;font-size:1.9em;padding-left:2px;text-align:right; border:1px solid #FDB;width:630px;}
-div.txt {line-height: 1.5em; color:gray;font-size:20pt; margin-left:5px;margin-right:5px;}
-div.result_div {line-height: 1.0em; font-size: 200%; display:none;}
-span.current {background:#F7FAF5; border:1px solid #ccc;color:#333;height:30px;padding:0 4px;}
-span.error {background:#ffeffb; font-weight: bold; border:1px solid #ccc;color:#633;height:30px;padding:0 4px;}
-span.typedOk {color:#382; font-weight: bold;}
